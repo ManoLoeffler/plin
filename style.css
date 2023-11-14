@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 20px 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('img/nosedit.mp4') repeat;
+    color: #8c001a; /* Um tom de vermelho escuro */
+    text-align: center;
+}
+
+
+
+header {
+    text-align: center;
+    margin:0px 0px 0;
+    padding: 10px;
+    background: linear-gradient(to right, #e45454, #be1313); /* Gradiente de rosa para vermelho */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
+    color: white; /* Cor do texto no cabeçalho */
+    position: relative;
+    width: 710px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Comic Sans MS";
+}
+
+
+.text-section {
+    margin-top: 10px;
+    padding: 20px;
+    background: linear-gradient(to right, #e45454, #be1313);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: justify;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, #e45454, #be1313);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #c44242;
+    text-align: center;
+}
+
+
+.content {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+    height: auto;
+    margin-inside: 10000px;
+}
+
+
+.text-section {
+    margin-top: auto;
+    padding: 20px;
+    width: 680px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to right, #e45454, #be1313);
+    border-radius: 10px;
+    box-shadow: 0 4px px rgba(0, 0, 0, 0.1);
+    color: white};
